@@ -1,2 +1,2 @@
 # javascript-study-repo
-learning javascript from open resources 
+learning javascript from open resources available
