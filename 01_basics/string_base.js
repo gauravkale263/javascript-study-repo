@@ -27,3 +27,9 @@ console.log(userName.replaceAll(' ','-')) //replace all means replace everywhere
 console.log(userName.slice(2,8));
 console.log(userName.substring(0,6));
 
+
+//toUppercase and lowercase
+console.log(userName.toLowerCase())
+console.log(userName.toUpperCase());
+
+
