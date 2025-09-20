@@ -15,6 +15,8 @@ objectData.printName()
 
 //This is normal arrow function
 const arrFun =(num1,num2)=>{
+    //console.log(arguments);  //can not do this in arrow function
+    
     console.log(this); 
    return num1*num2
 }
@@ -38,7 +40,7 @@ console.log(arrowfunObj());
 
 
 function add(...name){
-    console.log(name);  
+    console.log(arguments);  
 }
 
 add("Gaurav","Prasad")
