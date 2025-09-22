@@ -13,7 +13,6 @@ let newArr=arr.reduce(
 //Here using another way
 newArr=arr.reduce(function(acc,currVal){
     //console.log(`acc:${acc} and currVal:${currVal}`);
-    
     return acc+currVal
 },0)
 //console.log(newArr);
