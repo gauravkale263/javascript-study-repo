@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM4</title>
+</head>
+<body>
+    
+    <ul class="parentUl">
+        <li>Javascript</li>
+    </ul>
+
+</body>
+   
+   <script>
+        //const prompt = require('prompt-sync')()
+        
+        //This is an optimized approach
+        function addNewList(liText){
+            const li=document.createElement('li')
+            li.appendChild(document.createTextNode(liText))
+            document.querySelector('.parentUl').appendChild(li)
+        }
+        addNewList('liName')
+
+
+        const addLiText=(newLiText)=>{
+            const li=document.createElement('li')
+            li.innerHTML=`${newLiText}`
+            document.querySelector('.parentUl').appendChild(li)
+        }
+        addLiText("angular")
+        addLiText("php")
+
+        //edit
+        
+            const secChild= document.querySelector("li:nth-child(2)")
+            const li=document.createElement('li')
+            li.textContent="MOJO"
+            secChild.replaceWith(li) 
+        
+
+        //change with outerHTML
+        const firstChild=document.querySelector("li:first-child")
+        //firstChild.remove()
+        firstChild.outerHTML='<li>Typescript</li>'
+   </script>
+
+</html>
