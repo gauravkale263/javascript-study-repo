@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manupulation</title>
+</head>
+<body>
+    
+</body>
+    <script>
+        // const parentDiv=document.createElement('div')
+        // parentDiv.className="parent"
+        // const appendTag=document.createElement('h1')
+        // name="prasad kumbhakarn"
+        // appendTag.innerText=name
+         
+        // parentDiv.appendChild(appendTag)
+
+        // document.body.appendChild(parentDiv)
+
+        const firstDiv=document.createElement('div')
+        firstDiv.className="firstParentDiv"
+        const newEleH1=document.createElement('h1')
+        newEleH1.innerText="This is H1 Tag"
+        firstDiv.style.height="100px"
+        firstDiv.style.width="100%"
+        firstDiv.style.backgroundColor="yellow"
+        firstDiv.innerText="Hello , Here is Gaurav Kale"
+        firstDiv.appendChild(newEleH1)
+        document.body.appendChild(firstDiv)
+        
+    </script>
+</html>
