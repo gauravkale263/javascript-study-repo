@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM 2</title>
+</head>
+<body style="background-color: rgb(126, 133, 133);">
+    <div class="parent">
+        <h1 class="firstChild">Days in week</h1>
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+
+   
+</body>
+
+ <script>
+        const parent=document.querySelector('.parent')
+        console.log(parent)
+        console.log(parent.children)
+        //console.log(parent.children[0].innerHTML)
+       for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML)
+       }
+
+       const day1=document.querySelector('.day')
+       console.log(parent.firstElementChild)
+
+       console.log(day1.nextElementSibling)
+
+       console.log(day1.parentElement)
+       
+               
+    </script>
+</html>
