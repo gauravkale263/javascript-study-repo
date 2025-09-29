@@ -13,10 +13,12 @@ let guesses=[];
 guessButton.addEventListener('click',function(){
     
     const guessInput=document.getElementById('guessInput').value;
+    //check if input is valid
     if(guessInput<1 || guessInput>100){
         alert("Please enter a number between 1 and 100");
         return; 
     }
+
     if(attemptsLeft>0){
         guesses.push(guessInput);
         attemptsLeft--;
