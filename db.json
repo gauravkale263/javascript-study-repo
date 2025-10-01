@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": "beaa",
+      "name": "100",
+      "email": "gaurav@gmail.com",
+      "phone": "8596",
+      "address": "abc",
+      "course": "data",
+      "gender": {},
+      "subjects": [
+        "maths"
+      ]
+    },
+    {
+      "id": "c19f",
+      "name": "100",
+      "email": "gaurav@gmail.com",
+      "phone": "8698556263",
+      "address": "z",
+      "course": "web",
+      "gender": "male",
+      "subjects": [
+        "science"
+      ]
+    }
+  ]
+}
