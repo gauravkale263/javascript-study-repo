@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTS</title>
+</head>
+<body>
+    <h1>EVENTS</h1>
+    <button id="myButton">Click Here</button>
+    <input type="text" id="h1Tag">
+    <button id="inpbtn">ADD</button>
+</body>
+   <script type="text/javascript">
+
+       const button=document.getElementById('myButton')
+       const name=()=>{
+         console.log('Button Clicked')
+       }
+       setTimeout(name,1000)
+       button.addEventListener('click',name)
+
+       setInterval(function(){
+           console.log(`Hell Yeah!`);    
+       },1000)
+
+       new Promise(function(){
+        console.log("Hello , Promise");
+       })
+
+       const button1 = document.getElementById('inpbtn')
+       button1.addEventListener('click',function(e){
+            e.preventDefault()
+            const h1=document.getElementById('h1Tag').value
+            console.log(h1);
+       })
+   </script>
+</html>
