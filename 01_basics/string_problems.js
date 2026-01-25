@@ -6,7 +6,7 @@ let A=0
 const arr=string_name.toLowerCase()
 console.log(arr)
 for(let i=0;i<string_name.length;i++){
-      if(vowels[3].includes(string_name[i]))
+      if(vowels[0].includes(string_name[i]))
         {
           A++  
         }  
