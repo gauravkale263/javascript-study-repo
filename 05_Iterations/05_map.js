@@ -10,3 +10,18 @@ newArr=arr.map((num)=>num*10)
           .filter((num)=>num>=40)
 console.log(newArr);
 
+
+let marks=[45,78,98,80];
+
+let newMarks=marks.map((num)=>{
+    if(num%2==0){
+        num="Passed";
+    }
+    else{
+        num="Failed";
+    }
+    return num;
+})
+console.log(newMarks);
+
+
