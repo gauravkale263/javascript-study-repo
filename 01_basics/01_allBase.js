@@ -9,9 +9,6 @@ const callMe=function(){
 
 //arrow function
 
-(()=>{
- // console.log("This is self calling arrow function");
-})()
 
 //callback function
 
@@ -22,6 +19,3 @@ function operation(runFun){
 operation(function operator(){
     console.log("This is operator");
 });
-
-
-
