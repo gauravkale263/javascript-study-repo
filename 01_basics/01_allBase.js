@@ -7,8 +7,6 @@ const callMe=function(){
 
 //console.log(callMe());
 
-//arrow function
-
 
 //callback function
 
