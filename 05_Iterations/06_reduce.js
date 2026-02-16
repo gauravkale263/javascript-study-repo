@@ -7,7 +7,7 @@ let newArr=arr.reduce(
     initialValue
     
 );
-//console.log(newArr)
+console.log(newArr)
 
 
 //Here using another way
